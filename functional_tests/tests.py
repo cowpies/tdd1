@@ -116,7 +116,7 @@ class NewVisitorTest(LiveServerTestCase):
         self.wait_for_row_in_list_table('1: Buy peacock feathers')
         
         
-        self.fail('Finish the test!')
+        
 
 if __name__ == '__main__':  
     unittest.main(warnings='ignore')  
